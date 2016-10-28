@@ -1,0 +1,6 @@
+baseurl = "https://ivanzhang.ca/"
+languageCode = "en-us"
+title = "Ivan Zhang's Website"
+footnotereturnlinkcontents = "↩"
+[permalinks]
+	post = /:year/:month/:title/
