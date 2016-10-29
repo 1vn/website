@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+@import 'layouts/partials/navHeader';
+@import 'core/variables';
+
+@mixin respond-to-specific($width){
+	@media only screen and (max-width: $width){
+		@content
+	}
+}
+
+* {
+	font-family: 'Source Code Pro', monospace;
+	color: $gray;
+}
+
+a {
+	text-decoration: none;
+	color: $blue;
+
+	&:hover{
+		color: $light-gray;
+	}
+}
+
+.clear {
+	clear:both;
+}
+
+body {
+	background: $beige;
+}
+
+ul {
+	list-style-type: square;
+}
+
+#intro{
+	width: 650px;
+	@include respond-to-specific(650px){
+		width: 98%;
+	}
+	p {
+
+		a {
+			color: $blue;
+			
+			&:hover{
+				color: $light-gray
+			}
+		}
+	}
+}

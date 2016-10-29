@@ -1,6 +1,7 @@
-baseurl = "https://ivanzhang.ca/"
-languageCode = "en-us"
-title = "Ivan Zhang's Website"
-footnotereturnlinkcontents = "↩"
-[permalinks]
-	post = /:year/:month/:title/
+baseurl: "https://www.ivanzhang.ca/"
+languageCode: "en-us"
+title: "Ivan Zhang"
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  post: /:year/:month/:title/

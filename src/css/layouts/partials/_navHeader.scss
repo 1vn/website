@@ -1,0 +1,21 @@
+@import '../../core/variables';
+
+#nav {
+	a {
+		float: left;
+		text-decoration: none;
+		color: $gray;
+		
+		margin-right: 30px;
+		margin-top: 15px;
+		&:hover{
+			color: $light-gray;
+		}
+	}
+
+	#title-name, #name{
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 0;
+	}
+}
