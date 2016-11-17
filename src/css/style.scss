@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('../fonts/Go-Regular.ttf');
 
 @import 'layouts/partials/navHeader';
 @import 'core/variables';
@@ -26,7 +26,7 @@ a {
 .clear {
 	clear:both;
 }
-
+ 
 body {
 	background: $beige;
 }
