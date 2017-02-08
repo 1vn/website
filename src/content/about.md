@@ -19,4 +19,5 @@ layout = "page1"
 		<li>AWS (EC2, RDS, S3)</li>
 		<li>PHP</li>
 	</ul>
+	<a href="https://soundcloud.com/1vn">Short Soundcloud stint</a>
 </div>
