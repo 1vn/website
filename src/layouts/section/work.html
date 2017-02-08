@@ -1,0 +1,11 @@
+{{partial "header.html" .}}
+{{partial "navHeader.html" .}}
+			<div id="careers" class="cont">
+				<h1>Work</h1>
+				<ul id="list">
+		            {{ range .Data.Pages }}
+		                {{ .Render "li"}}
+		            {{ end }}
+		        </ul>
+			</div>
+{{partial "footer.html" .}}

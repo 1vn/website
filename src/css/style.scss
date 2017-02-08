@@ -24,18 +24,24 @@ ul {
 	list-style-type: square;
 }
 
-#intro{
+.cont{
 	width: 650px;
 	margin: 0 auto;
 	@include respond-to-specific(650px){
 		width: 98%;
 	}
-	
+}
+
+
+h1{
+	font-size: 50px;
+}
+
+#intro{
 	#definition{
 		margin-top: 33%;
 		#name{
 			margin-bottom: 0;
-			font-size: 50px;
 		}
 
 		#purpose{
