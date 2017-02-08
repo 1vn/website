@@ -7,7 +7,7 @@ layout = "page1"
 <div class="cont">
 	<p>Currently I am the Lead Software Developer 
 	at <a href="https://ranomics.com">Ranomics</a>, building and designing intuitive, 
-	reliable, and secure software to help fight cancer. I built the Ranomics Web Platform, OAuth2 Web API, public website, and interal tooling to optimize our scientific processes in the lab.</p>
+	reliable, and secure software to help fight cancer.</p>
 	<p>I am a firm believer in using the right tool for the job, therefore I am always open to learning unfamiliar things quicky to solve challenging problems. However, if I had to choose, here are the tools that I enjoy using the most:
 	</p>
 	<ul>
