@@ -1,4 +1,5 @@
-@import url('../fonts/Go-Regular.ttf');
+@import url('../fonts/OpenSans-Regular.ttf');
+@import url('../fonts/Nunito-Regular.ttf');
 
 @import 'layouts/partials/navHeader';
 @import 'core/variables';
@@ -10,8 +11,8 @@
 }
 
 * {
-	font-family: 'Source Code Pro', monospace;
-	color: $gray;
+	font-family: 'Helvetica', monospace;
+	color: #333333;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
 }
  
 body {
-	background: $beige;
+	background: #ffffff;
 }
 
 ul {
