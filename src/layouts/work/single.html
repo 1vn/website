@@ -1,12 +1,6 @@
 {{partial "header.html" .}}
 {{partial "navHeader.html" .}}
-			<div id="careers" class="cont">
-    			<img alt="Ranomics" id="big-logo" src="/img/logo.svg">
-				<h1>Careers</h1>
-				<ul id="list">
-		            {{ range .Data.Pages }}
-		                {{ .Render "li"}}
-		            {{ end }}
-		        </ul>
-			</div>
+<div class="cont">
+	{{.Content}}	
+</div>
 {{partial "footer.html" .}}

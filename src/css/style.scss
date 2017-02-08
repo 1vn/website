@@ -30,11 +30,21 @@ ul {
 	@include respond-to-specific(650px){
 		width: 98%;
 	}
+	position: relative;
 }
 
 
 h1{
 	font-size: 50px;
+}
+
+#xenTrafficIframe{
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0; 
+	left: 50%;
+	height: 650px;
 }
 
 #intro{
