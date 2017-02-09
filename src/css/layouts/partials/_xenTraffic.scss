@@ -8,11 +8,28 @@ body{
 	background: #333333;
 }
 
+#xen-app{
+	position: fixed;
+	width: 850px;
+	height: 600px;
+	left: 0;
+	top: 0;
+	z-index: -2
+}
+
+#xenTrafficPage{
+	.title{
+		background: #ffffff;
+		width: 300px;
+		margin: 30px;
+		padding: 30px;
+	}
+}
+
 #highway{
 	position: relative;
 	background: url("/img/bg-night.png") no-repeat;
 	background-size: auto 650px;
-	width: 100%;
 	height: 650px;
 	margin: 0 auto;
 	overflow: hidden;

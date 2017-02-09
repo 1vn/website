@@ -189,9 +189,9 @@ class Traffic extends Component {
 }
 
 function init() {
-	if(document.getElementById("react-app")){
+	if(document.getElementById("xenTraffic")){
 		ReactDOM.render(
-		  <XenApp id="xen-app" />, document.getElementById("react-app")
+		  <XenApp id="xen-app" />, document.getElementById("xenTraffic")
 		);
 	}
 }

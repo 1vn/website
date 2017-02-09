@@ -26,9 +26,9 @@ ul {
 }
 
 .cont{
-	width: 650px;
+	width: 850px;
 	margin: 0 auto;
-	@include respond-to-specific(650px){
+	@include respond-to-specific(850px){
 		width: 98%;
 	}
 	position: relative;
@@ -37,15 +37,6 @@ ul {
 
 h1{
 	font-size: 50px;
-}
-
-#xenTrafficIframe{
-	width: 100%;
-	display: block;
-	position: absolute;
-	top: 0; 
-	left: 50%;
-	height: 650px;
 }
 
 #intro{
