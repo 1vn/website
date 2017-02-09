@@ -28,9 +28,6 @@
 			margin: 0;
 			margin-right: 30px;
 			margin-top: 15px;
-			@include respond-to-specific(850px){
-				margin-right: 10px;
-			}
 			&:hover{
 				cursor: pointer;
 				color: $light-gray;
