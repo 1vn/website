@@ -10,5 +10,9 @@
 		<p>Designed by Pedja Ristic and Samuel Yee</p>
 		<p>Built by Ivan Zhang</p>
 	</div>
+	<div class="desc">
+		<p>This was a project built over a weekend at a Hackathon.</p>
+		<p>Working alongside two designers, I built</p>
+	</div>
 	<script src="/js/xen.bundle.js" type="text/javascript" charset="utf-8"></script>  
 </div>

@@ -11,8 +11,8 @@
 	margin: 15px;
 	padding: 15px;
 	@include respond-to-specific(850px){
-		padding: 0;
-		margin: 0;
+		padding-left: 0;
+		margin-left: 0;
 	}
 	ul{
 		margin: 0;
