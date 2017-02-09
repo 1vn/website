@@ -1,6 +1,6 @@
 +++
 date = "2016-10-28T14:05:58-04:00"
-title = "About"
+title = "About Ivan Zhang"
 type = "page"
 layout = "page1"
 +++

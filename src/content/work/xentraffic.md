@@ -1,5 +1,5 @@
 +++
-	title = "XenTraffic - UofT Hacks 2017"
+	title = "Ivan Zhang - XenTraffic - UofT Hacks 2017"
 	slug = "xentraffic"
 	preview = "Lightweight web traffic visualization tool, built with React."
 +++
