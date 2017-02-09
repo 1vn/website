@@ -16,9 +16,12 @@ if (process.env.NODE_ENV == 'production') {
 }
 
 module.exports = {
-  entry: "./index.js",
+  entry: {
+    xen: "./xen.js"
+  },
   output: {
-    filename: "../static/js/bundle.js"
+    filename: "[name].bundle.js",
+    path: __dirname+"/../static/js/"
   },
   devtool: 'source-map',
   module: {
@@ -31,6 +34,7 @@ module.exports = {
     ],
     loaders: [
       {
+        enforce: 'pre',
         test: /\.(js|jsx|es6)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',

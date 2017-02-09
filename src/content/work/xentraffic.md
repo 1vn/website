@@ -1,9 +1,10 @@
 +++
 	title = "XenTraffic - UofT Hacks 2017"
 	slug = "xentraffic"
-	preview = "Lightweight tool to help you build your own web traffic visualization, built with React."
+	preview = "Lightweight web traffic visualization tool, built with React."
 +++
-<iframe id="xenTrafficIframe" src="http://www.xentraffic.com" frameborder="0"></iframe>
 <h1>XenTraffic</h1>
 <p>Designed by Pedja Ristic and Samuel Yee</p>
 <p>Built by Ivan Zhang</p>
+<div id="react-app"></div>
+<script src="/js/xen.bundle.js" type="text/javascript" charset="utf-8"></script>  
