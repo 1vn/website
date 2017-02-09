@@ -28,7 +28,6 @@ class XenApp extends Component {
 	getLevel (){
 		//demo purposes, spoof level
 		let level = Math.round(Math.random() * 3);
-		console.log(level);
 		this.setState({
 			level: level,
 		});
