@@ -1,3 +1,6 @@
 src/public
 node_modules
 .sass-cache
+*.bundle.js
+*.bundle.js.map
+
