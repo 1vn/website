@@ -8,7 +8,7 @@ layout = "page1"
 	<p>Currently I am the Lead Software Developer 
 	at <a href="https://ranomics.com">Ranomics</a>, building and designing intuitive, 
 	reliable, and secure software to help fight cancer.</p>
-	<p>I am a firm believer in using the right tool for the job, therefore I am always open to learning unfamiliar things quicky to solve challenging problems. However, if I had to choose, here are the tools that I enjoy using the most:
+	<p>I am a firm believer in using the right tool for the job, therefore I am always open to learning unfamiliar things quickly to solve challenging problems. However, if I had to choose, here are the tools that I enjoy using the most:
 	</p>
 	<ul>
 		<li>Go</li>
