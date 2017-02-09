@@ -19,7 +19,7 @@ class XenApp extends Component {
 
 		this.state = {
 			level: 3,
-			speed: 300,
+			speed: 100,
 		};
 
 		this.getLevel = this.getLevel.bind(this);
@@ -27,8 +27,10 @@ class XenApp extends Component {
 
 	getLevel (){
 		//demo purposes, spoof level
+		let level = Math.round(Math.random() * 3);
+		console.log(level);
 		this.setState({
-			level: Math.round(Math.random() * 2),
+			level: level,
 		});
 	}
 
@@ -155,6 +157,8 @@ class Traffic extends Component {
 				return 1000;
 			case 3:
 				return 100;
+			default:
+				return 3000;
 		}
 
 	}

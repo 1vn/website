@@ -84,7 +84,7 @@
 	
 			_this.state = {
 				level: 3,
-				speed: 300
+				speed: 100
 			};
 	
 			_this.getLevel = _this.getLevel.bind(_this);
@@ -95,8 +95,10 @@
 			key: "getLevel",
 			value: function getLevel() {
 				//demo purposes, spoof level
+				var level = Math.round(Math.random() * 3);
+				console.log(level);
 				this.setState({
-					level: Math.round(Math.random() * 2)
+					level: level
 				});
 			}
 		}, {
@@ -251,6 +253,8 @@
 						return 1000;
 					case 3:
 						return 100;
+					default:
+						return 3000;
 				}
 			}
 		}, {
