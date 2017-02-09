@@ -9,20 +9,26 @@ body{
 }
 
 #xen-app{
-	position: fixed;
-	width: 850px;
+	width: 600px;
 	height: 600px;
 	top: 0;
+	left: 15%;
 	margin: 0 auto;
-	z-index: -2
+	z-index: -2;
+
+	border-radius: 50%;
+	overflow:hidden;
+	position: absolute;
 }
 
 #xenTrafficPage{
+	position: relative;
 	.title{
 		background: #ffffff;
 		width: 300px;
 		margin: 30px;
-		padding: 30px;
+		margin: 0 auto;
+		padding: 30px;	
 		@include respond-to-specific(350px){
 			width: 100%;
 			margin: 0 auto;
