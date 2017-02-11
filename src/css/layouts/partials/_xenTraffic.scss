@@ -9,16 +9,13 @@ body{
 }
 
 #xen-app{
-	width: 600px;
-	height: 600px;
-	top: 0;
-	left: 15%;
+	width: 400px;
+	height: 400px; 
 	margin: 0 auto;
 	z-index: -2;
 
 	border-radius: 50%;
 	overflow:hidden;
-	position: absolute;
 }
 
 #xenTrafficPage{
@@ -27,7 +24,6 @@ body{
 		background: #ffffff;
 		width: 300px;
 		margin: 30px;
-		margin: 0 auto;
 		padding: 30px;	
 		@include respond-to-specific(350px){
 			width: 100%;
@@ -37,12 +33,22 @@ body{
 	}
 }
 
+.demo{
+	position: fixed;
+	right: 500px;
+}
+
+.desc{
+	
+}
+
 #highway{
 	position: relative;
 	background: url("/img/bg-night.png") no-repeat;
 	background-size: auto 650px;
 	height: 650px;
 	margin: 0 auto;
+	margin-top: -150px;
 	overflow: hidden;
 	color: #000000;
 	@include respond-to-specific(700px){
