@@ -14,7 +14,6 @@ var plugins = [
     }))
 
 module.exports = {
-  watch: true,
   entry: {
     xen: "./xen.js"
   },
