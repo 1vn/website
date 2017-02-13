@@ -13,7 +13,7 @@
 	<div class="desc">
 		<div class="title">			
 			<h1>XenTraffic</h1>
-			<p><strong>Designed by Pedja Ristic and Samuel Yee, Built by Ivan Zhang</strong></p>
+			<p><strong>Designed by Pedja Ristic and Samuel Yee, built by Ivan Zhang</strong></p>
 		</div>
 		<div class="article">
 			<p>

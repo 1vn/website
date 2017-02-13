@@ -72,12 +72,13 @@ h2{
 }
 
 #xen-app{
-	width: 300px;
-	height: 300px; 
+	width: 400px;
+	height: 400px; 
 	border-radius: 50%;
 	overflow:hidden;
 	position: fixed;
 	@include respond-to-specific(850px){
+		position: relative;
 		width: 290px;
 		height: 290px;
 	}
@@ -102,7 +103,6 @@ h2{
 	width: 50%;
 	float: left;
 	@include respond-to-specific(850px){
-		position: relative;
 		left: 0px;
 		width: 100%;
 		margin: 0 auto;
@@ -130,11 +130,15 @@ h2{
 	background-size: auto 650px;
 	height: 650px;
 	margin: 0 auto;
-	margin-top: -165px;
+	margin-top: -125px;
 	overflow: hidden;
 	color: #000000;
 	@include respond-to-specific(700px){
 		width: 98%;
+	}
+
+	@include respond-to-specific(850px){
+		margin-top: -165px;
 	}
 }
 
