@@ -29,7 +29,7 @@
 				The cars spawn in lanes randomly, but it won't spawn in the same lane twice. I also attempted to combat visual latency by deleting references to cars (via deleting array value) after a short amount of time are off the screen to mark the addresses for the javascript garbage collector.
 			</p>
 			<p>
-				You can check out the demo project we set up <a href="https://www.github.com/1vn/xen-traffic-demo" target=_blank>here</a>. In this example we also wrote a mock Go server to give dummy traffic level values.
+				Check out the demo project I set up <a href="https://www.github.com/1vn/xen-traffic-demo" target=_blank>here</a>. In this example I wrote a mock Go server to give simulated traffic level values.
 			</p>
 		</div>
 	</div>
