@@ -20,7 +20,7 @@
 				For UofT Hacks 2017, my team and I built a visualization which serves primarily as a tool to convey web traffic to non-technical members on your team. We went from ideation to shipping a fully functioning demo without 12 hours.
 			</p>
 			<p>
-				The idea is that anyone should be able to understand your web traffic at a glance, without having to scour through complicated graphs and dashboards. It is intuitive for anyone to see a highway full of cars and understand that there is a lot of traffic.
+				The idea is that anyone on your team should be able to understand your web traffic at a glance, without having to scour through complicated graphs and dashboards. It is intuitive to see a highway full of cars and understand that there is a lot of traffic.
 			</p>
 			<p>
 				Under the hood it is a React component which takes in a level value (1-3). We made no assumptions about your infrastructure, so it's up to you to define what high, medium, and low traffic means for your servers. Simply change the level prop, and the activity on the roads will update visually.
