@@ -26,7 +26,7 @@
 				Under the hood it is a React component which takes in a level value (1-3). We made no assumptions about your infrastructure, so it's up to you to define what high, medium, and low traffic means for your servers. Simply change the level prop, and the activity on the roads will update visually.
 			</p>
 			<p>
-				The cars spawn in lanes randomly, but it won't spawn in the same lane twice. I also attempted to combat visual latency by deleting references to cars (via deleting array value) after a short amount of time are off the screen to mark the addresses for the javascript garbage collector.
+				The cars spawn in lanes randomly, but they won't spawn in the same lane twice. I also attempted to combat visual latency by deleting references to cars (via deleting array value) after a short amount of time are off the screen to mark the addresses for the javascript garbage collector.
 			</p>
 			<p>
 				Check out the demo project I set up <a href="https://www.github.com/1vn/xen-traffic-demo" target=_blank>here</a>. In this example I wrote a mock Go server to give simulated traffic level values.
