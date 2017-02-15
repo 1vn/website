@@ -117,7 +117,7 @@ a{
 #intro{
 	position: absolute;
 	left: 15%;
-	bottom: 15%;
+	bottom: 33%;
 	#definition{
 		#name{
 			margin-bottom: 0;
@@ -145,8 +145,19 @@ a{
 	}
 
 	#upto{
-		width: 80%;
+		width: 70%;
 		font-size: 18px;
+	}
+
+	@include respond-to-specific(450px){
+		#name{
+			font-size: 35px;
+		}
+
+		#purpose{
+			font-size: 20px;
+		}
+
 	}
 }
 
