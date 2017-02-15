@@ -7,7 +7,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="#5F5F5D">
 		<meta name="google-site-verification" content="Gd2FDHAL2TdZ0QVOucLSzp1e2FVtv2N2rv0j42eYpxM" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	    <title>Ivan Zhang's Projects</title>
+	    <title>Ivan Zhang - {{.Title}}</title>
 	    <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
@@ -31,12 +31,7 @@
 	<body>
 	    <div id="page">
 {{partial "navHeader.html" .}}
-			<div class="cont">
-				<h1>Work</h1>
-				<ul id="list">
-		            {{ range .Data.Pages }}
-		                {{ .Render "li"}}
-		            {{ end }}
-		        </ul>
-			</div>
+<div class="cont">
+	{{.Content}}	
+</div>
 {{partial "footer.html" .}}
