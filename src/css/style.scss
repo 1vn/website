@@ -28,6 +28,7 @@ ul {
 	width: 850px;
 	margin: 0 auto;
 	@include respond-to-specific(850px){
+		margin-top: 150px;
 		width: 98%;
 	}
 	position: relative;
@@ -41,18 +42,17 @@ h1{
 h2{
 	font-size: 24px; 
 }
+a{
+	text-decoration: none;
+}
 
 #nav {
 	top: 0;
 	position: fixed;
-	background: #ffffff;
-	margin: 15px;
 	padding: 15px;
 	z-index: 99;
-	@include respond-to-specific(850px){
-		padding-left: 0;
-		margin-left: 0;
-	}
+	width: 100%;
+	background: #ffffff;
 	ul{
 		margin: 0;
 		padding: 0;
@@ -71,6 +71,14 @@ h2{
 				cursor: pointer;
 				color: $light-gray;
 			}
+			@include respond-to-specific(450px){
+				margin-right: 15px;
+				margin-top: 6px;
+			}
+		}
+
+		@include respond-to-specific(450px){
+			font-size: 14px;
 		}
 	}
 
@@ -92,12 +100,25 @@ h2{
 		&:hover{
 			background: #ffffff;
 		}
+		@include respond-to-specific(450px){
+			margin-top: 0px;
+			width: 30px;
+			height: 30px;
+		}
+	}
+
+	@include respond-to-specific(850px){
+		margin-left: 0;
+		padding-left: 0;
+		width: 98%;
 	}
 }
 
 #intro{
+	position: absolute;
+	left: 15%;
+	bottom: 15%;
 	#definition{
-		margin-top: 33%; 
 		#name{
 			margin-bottom: 0;
 		}
@@ -121,6 +142,11 @@ h2{
 				}
 			}
 		}
+	}
+
+	#upto{
+		width: 80%;
+		font-size: 18px;
 	}
 }
 
@@ -170,9 +196,13 @@ h2{
 .desc{
 	width: 50%;
 	float: left;
+	h1{
+		padding: 30px;
+	}
 	p{
 		font-size: 16px;
 		line-height: 1.8;
+		padding: 30px;
 	}
 	@include respond-to-specific(450px){
 		position: relative;
