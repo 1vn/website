@@ -9,6 +9,7 @@
 		<a href="http://www.xentraffic.com" target=_blank rel=nofollow>
 			<div id="xenTraffic"></div>
 		</a>
+		<div><strong>React.js, CSS3 Animations, UX Design</strong></div>
 	</div>
 	<div class="desc">
 		<div class="title">			
