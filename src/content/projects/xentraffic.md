@@ -1,7 +1,7 @@
 +++
-	title = "XenTraffic - UofT Hacks 2017"
+	title = "XenTraffic"
 	slug = "xentraffic"
-	preview = "Lightweight web traffic visualization tool, built with React."
+	preview = "Lightweight web traffic visualization tool."
 +++
 <div id="xenTrafficPage">
 	<div class="demo">
@@ -9,10 +9,10 @@
 		<a href="http://www.xentraffic.com" target=_blank rel=nofollow>
 			<div id="xenTraffic"></div>
 		</a>
-		<div><strong>React.js, CSS3 Animations, UX Design</strong></div>
 	</div>
 	<div class="desc">
 		<div class="title">			
+			<p><strong>React.js, CSS3 Animations, UX Design</strong></p>
 			<h1>XenTraffic</h1>
 			<p><strong>Designed by Pedja Ristic and Samuel Yee, built by Ivan Zhang</strong></p>
 		</div>
